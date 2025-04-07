@@ -8,3 +8,9 @@ SERVICE_RATE_SYSTEM2 = 1/15  # 15 minutos por camión (1 servidor)
 COST_WAITING = 2.0     # € por minuto de espera
 COST_SYSTEM1 = 1.0     # € por minuto por servidor (2 servidores)
 MAX_COST_SYSTEM2 = 2.55 # € máximo para que sea rentable
+
+HIPOTESIS_CONFIG = {
+    'umbral_mejora': 0.25,  # 25%
+    'max_costo_extra': 3.0,  # €/min
+    'max_tiempo_convergencia': 5000  # min
+}
